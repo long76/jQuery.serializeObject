@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Demo
 
 You can use the [editor on GitHub](https://github.com/long76/jQuery.serializeObject/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
