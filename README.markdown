@@ -14,8 +14,6 @@ JSON much easier to work with than DOM or string manipulation.
 
 # How do I use it?
 
-If you want to see the code and demo first: http://jsfiddle.net/davidhong/PRpJT/
-
 Simply include the `jQuery.serializeObject.js` along with any `jQuery` instance
 and use it like `$.serialize`.
 
@@ -46,29 +44,8 @@ will return:
 		]
 	}
 
-## Change log
-
-### 2.0.3
-
-- Add MIT License
-
-### 2.0.2
-
-- Add support for $.noConflict mode
-
-### 2.0.0
-
-*Major version change: Camel casing of names have been removed. Please use
-version 1.0.4 if you require camel casing of names.*
-
-- Remove `$.data` like camelCasing on names
-
-### 1.0.4
-
-- Fix an issue (#2) where arrays longer than 2 resulted in incorrect values
+## [Change log](https://github.com/long76/jQuery.serializeObject/blob/master/CHANGELOG.markdown).
 
 ## Known issues
 
 - In rare cases, this won't work with old checkbox/hidden hack. See [this issue for more details](https://github.com/hongymagic/jQuery.serializeObject/issues/9).
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hongymagic/jquery.serializeobject/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
