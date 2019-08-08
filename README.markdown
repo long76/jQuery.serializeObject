@@ -16,32 +16,32 @@ Simply include the `jQuery.serializeObject.js` along with any `jQuery` instance
 and use it like `$.serialize`.
 
 If you have a `form` like the following:
-
-	<form id="minutes">
-		<input type="text" name="subject">
-		<input type="text" name="minute-taker">
-		<!-- ... -->
-		<input type="checkbox" name="attendees" value="David" checked="checked">
-		<input type="checkbox" name="attendees" value="Daniel" checked="checked">
-		<input type="checkbox" name="attendees" value="Darwin" checked="checked">
-	</form>
-
+```HTML
+<form id="minutes">
+	<input type="text" name="subject">
+	<input type="text" name="minute-taker">
+	<!-- ... -->
+	<input type="checkbox" name="attendees" value="David" checked="checked">
+	<input type="checkbox" name="attendees" value="Daniel" checked="checked">
+	<input type="checkbox" name="attendees" value="Darwin" checked="checked">
+</form>
+```
 and wish to convert them to a JSON object:
-
-	var minutes = $('form#minutes').serializeObject();
-
+```JS
+var minutes = $('form#minutes').serializeObject();
+```
 will return:
-
-	{
-		"subject": "",
-		"minute-taker": "",
-		"attendees": [
-			"David",
-			"Daniel",
-			"Darwin"
-		]
-	}
-
+```JSON
+{
+  "subject": "",
+  "minute-taker": "",
+  "attendees": [
+    "David",
+    "Daniel",
+    "Darwin"
+  ]
+}
+```
 ## Change log
 [See here](https://github.com/long76/jQuery.serializeObject/blob/master/CHANGELOG.markdown)
 
