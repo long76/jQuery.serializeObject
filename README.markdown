@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/hongymagic/jQuery.serializeObject.png)](https://travis-ci.org/hongymagic/jQuery.serializeObject)
-
 # What is it?
 
 `$.serializeObject` is a variant of existing `$.serialize` method which, instead
@@ -44,7 +42,8 @@ will return:
 		]
 	}
 
-## [Change log](https://github.com/long76/jQuery.serializeObject/blob/master/CHANGELOG.markdown).
+## Change log
+[See here](https://github.com/long76/jQuery.serializeObject/blob/master/CHANGELOG.markdown)
 
 ## Known issues
 
